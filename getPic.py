@@ -5,8 +5,8 @@ import requests
 
 class BaiduPicIndentify:
     def __init__(self, img):
-        self.AK = "aotCVGwzQrGUhjbBLUgHAfnw"
-        self.SK = "waDjfTeo0yNNIkP1vlW8q0RMkWgSyaO6"
+        self.AK = " "   # your AK
+        self.SK = " "   # your SK
         self.img_src = img
         self.headers = {
             "Content-Type": "application/json; charset=UTF-8"
